@@ -1,0 +1,32 @@
+#forecast {
+    width: 300px;
+
+}
+
+
+#forecast .day-weather {
+    padding: 10px;
+
+    border: 1px solid black;
+    height: 60px;
+    position: relative;
+}
+
+#forecast .day-weather .day {
+    font-size: 25px;
+
+    position: absolute;
+}
+
+#forecast .day-weather .min-temp {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}
+
+#forecast .day-weather .max-temp {
+    position: absolute; top: 0; 
+    right: 50px;
+	
+}

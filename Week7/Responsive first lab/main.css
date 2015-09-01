@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+header {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+header nav {
+
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+header nav li {
+  border: 1px solid black;
+  display: inline-block;
+  width: 15%;
+  height: 50px;
+  margin: 10px;
+}
+
+header nav .lines {
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px 10px 10px auto;
+    width: 15%;
+    padding: 15px;
+    display: none;
+}
+
+header nav .line {
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+
+main {
+  border: 1px solid red;
+  margin-bottom: 10px;
+  height: 170px;
+}
+
+.asides {
+  font-size: 0;
+}
+
+aside {
+  border: 1px solid green;
+  width: 23%;
+  height: 125px;
+  display: inline-block;
+  margin: 10px 1%;
+  overflow: hidden;
+}
+
+footer {
+  margin-top: 10px;
+  border: 1px solid blue;
+  padding: 10px 10px 0 10px;
+  font-size: 0;
+}
+
+footer section {
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5% 10px 1.5%;
+  height: 50px;
+}

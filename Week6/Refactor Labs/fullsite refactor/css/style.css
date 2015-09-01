@@ -1,0 +1,157 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Add font rules here */
+
+/* Site-wide properties ======================================================== */
+body{
+    font: normal normal 14px/14px Arial, “Helvetica Neue”, Helvetica, sans-serif; color: #4b4b4b; background: url(../img/pattern.jpg) repeat; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); } 
+    
+    /* Fibonacci based heading scale ratio */
+    h1{ font-size: 4.4em; font-weight: normal; }
+    h2{ font-size: 2.8em; font-weight: normal; padding-left: 125px; height: 60px; margin-top: 0.5em; }
+    h3{ font-size: 1.6em; font-weight: bold; }
+    h4{ font-size: 1.2em; font-weight: normal; }
+
+/* Reusable classes ============================================================ */
+
+/* Left & Right alignment */
+.left{ float: left; }
+.right{ float: right; }
+p img.left {float:left;margin: 0em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+
+/* The inside class provides consistent padding. To be used often! */
+.inside{ padding: 20px; }
+
+/* The fraction classes are useful for column lists */
+.half, .third, .quarter, .fifth, .sixth{ width: 100%; }
+.half li, .third li, .quarter li, .fifth li, .sixth li{ float: left; }
+.half li{ padding-right: 5%; width: 45% }
+.third li{  padding-right: 5%; width: 28.3% }
+.quarter li{  padding-right: 5%; width: 20% }
+.fifth li{  padding-right: 5%; width: 15% }
+
+/* For when a <br /> just ain't enough */
+.separator{
+    clear: both;
+    float: left;
+    height: 20px;
+    width: 100%; }
+
+/* Basic Structure ============================================================= */
+#wrap{
+    margin: 0 auto;
+    position: relative;
+    width: 960px; }
+
+    /* Header */
+    header{
+        float: left;
+        width: 100%;
+        position: fixed; 
+		z-index: 10; }
+    
+    /* Content */
+    article{
+        float: left;
+        width: 100%; }
+        
+    /* Footer */
+    footer{
+        float: left;
+        width: 100%; }
+    
+/* Project specifics =========================================================== */
+
+::selection { background-color: rgba(251, 220, 166, 0.2); }
+::-moz-selection { background-color: rgba(251, 220, 166, 0.2); border: 10px solid blue; }
+
+section { margin-bottom: 1000px; padding-top: 150px; float: left; }
+
+#contact { margin-bottom: 0px;}
+
+/* Graphics for headers */
+
+h2.intro { background: url(../img/intro.png) no-repeat 25px 10px; }
+h2.newworks {background: url(../img/book.png) no-repeat 20px -1px; }
+h2.contact {background: url(../img/contact.png) no-repeat 10px -2px; }
+h2.blog {background: url(../img/blog.png) no-repeat 10px -2px; }
+h2.about {background: url(../img/about.png) no-repeat 10px -2px; }
+
+/* Pour some CSS below ========================================================= */
+
+/* Main Nav */
+
+nav { width: auto; float: left; }
+nav ul { position: relative; left: 540px; display: block; margin-top: -33px; list-style: none; }
+nav ul li { display: inline; margin-left: 50px; }
+nav ul li a { font-size: 16px; color:#AB7008; border-bottom: none; text-decoration:none; }
+nav ul li a:hover{background-color: #fbdca6; -moz-border-radius: 5px; -webkit-border-radius: 5px; color: #5687C9; -webkit-transition: background-color 0.5s linear;}
+
+.accordionButton {
+	margin-bottom:5px;	
+	cursor: pointer;
+	}
+
+footer 	a { color:#AB7008; border-bottom: none; text-decoration:none; }
+footer a:hover{background-color: #fbdca6; -moz-border-radius: 5px; -webkit-border-radius: 5px; color: #5687C9; -webkit-transition: background-color 0.5s linear;}
+
+/* Story Anchor links */
+
+ul.anchorstory { position: relative; left: 450px; top: -50px; display: block; list-style: none;}
+ul.anchorstory li{ display:inline; margin-left: 10px;}
+ul.anchorstory li a{text-decoration:none;}
+/* Fonts types and spacing */
+h1{ font: 88px 'Lobster1.1Regular', Arial, “Helvetica Neue”, Helvetica, sans-serif; color:#5687C9; }
+    h1 span{ font: 88px RalewayThin, Arial, “Helvetica Neue”, Helvetica, sans-serif; color:#AB7008; letter-spacing: -4px }
+
+h2 { font-family: 'Lobster1.1Regular', Arial, “Helvetica Neue”, Helvetica, sans-serif; color:#5687C9; }
+
+p {margin:0 0 1.5em;}
+
+footer h4{margin: 0 8.5em 1.5em;}
+
+footer p{margin: -3em 1.5em 1.5em;}
+
+/* Basic Form */
+
+input[type="text"] { width: 400px; height: 15px; }
+textarea { width: 750px; height: 275px; }
+label { color: #ff5400; }
+input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 5px solid rgba(251, 220, 166, 0.15); padding: 10px; font-family: RalewayThin, Arial, “Helvetica Neue”, Helvetica, sans-serif; color: #4b4b4b; font-size: 24px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+input:focus, textarea:focus { border: 5px solid #AB7008; background-color: rgba (86, 135, 201, 1); }
+
+input[type="submit"] { border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #5687C9; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+		 color-stop(0.23, #fbdca6),
+		    color-stop(0.62, #AB7008)
+		);
+		background: -moz-linear-gradient(
+		    center bottom,
+		    #fbdca6 23%,
+		    #AB7008 62%
+		);
+	}
+	 
+
+input[type="submit"]:hover { color: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.4); background-color: #fbdca6;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+        color-stop(0.23, #fff),
+	    color-stop(0.62, #5687C9)
+		);
+		background: -moz-linear-gradient(
+	    center bottom,
+	    #fff 23%,
+		#5687C9 62%
+		);
+}
+
+input[type="submit"]:active { position: relative; top: 1px; }
