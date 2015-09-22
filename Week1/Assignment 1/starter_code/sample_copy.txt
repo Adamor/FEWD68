@@ -12,11 +12,11 @@ I'm Joe Johnson, a Developer based in NYC. I Have ten years of experience in the
 RESUME PAGE
 
 Experience
-        
+				
 I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.
-    
+		
 Relevant Experience
-    
+		
 Web Developer, Relaxr 2015 - present
 Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.
 
