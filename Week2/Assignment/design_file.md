@@ -1,7 +1,7 @@
 Relaxr Landing Page: Part 1
 ==================
 
-We'll be working on this site for the next three classes, just a heads up.
+We'll be working on this site for the next two classes, just a heads up.
 
 For today, we'll be making a simplified version of the site which uses only one column. Your job is to build out the CSS - using the information below - for the page!
 
