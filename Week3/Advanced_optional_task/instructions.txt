@@ -1,0 +1,7 @@
+Convert the pseudo-code you wrote in the last section into javascript.
+Take a option from a human player
+Have a computer player that choose one of the three options in an array randomly
+Validate inputs of both players
+Create if-else statements to find out which of two players wins
+Print on with innerHTML the result and congratulations message
+Change the selections of each player to confirm that your program is working
