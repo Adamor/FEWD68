@@ -1,5 +1,5 @@
 //error thrown example
-$("body")append("<h1>Hi world!</h1>");
+$("body").append("<h1>Hi world!</h1>");
 //console.log example, log each of the pies and the index before the switch 
 var pies=["Cherry","Pumpkin","Banana","a","Rhubarb"];
 $("body").append("There are "+pies.length+" total pies.<br>");
@@ -17,6 +17,7 @@ pies.forEach(function(element,index){
 //breakpoint example, put inside the function
 function doSomething(){
 	$("body").append("<p>Paragraph</p>");
+	var myThing = "Dice";
 	console.log(myThing)
 }
 doSomething();
